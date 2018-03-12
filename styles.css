@@ -1,7 +1,7 @@
 .container{
     width: 700px;
     margin: 15px auto;
-    background-color: rgb(146, 143, 143);
+    background-color: rgb(172, 171, 171);
     display: flex;
     padding: 15px;
 }
@@ -13,4 +13,5 @@
 
 .info{
     padding: 20px;
+    flex-grow: 1;
 }
