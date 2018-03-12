@@ -1,0 +1,16 @@
+.container{
+    width: 700px;
+    margin: 15px auto;
+    background-color: rgb(146, 143, 143);
+    display: flex;
+    padding: 15px;
+}
+
+.poster{
+    max-width: 269px;
+    max-height: 369px;
+}
+
+.info{
+    padding: 20px;
+}
