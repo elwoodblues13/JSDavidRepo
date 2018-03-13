@@ -1,0 +1,23 @@
+{
+  "name": "html-projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "styles": "lessc styles.less styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elwoodblues13/JSDavidRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elwoodblues13/JSDavidRepo/issues"
+  },
+  "homepage": "https://github.com/elwoodblues13/JSDavidRepo#readme",
+  "devDependencies": {
+    "less": "^3.0.1"
+  }
+}

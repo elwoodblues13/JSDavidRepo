@@ -1,28 +1,24 @@
 .container {
-    width: 700px;
-    margin: 15px auto;
-    background-color: rgb(79, 131, 228);
-    display: flex;
-    padding: 15px;
+  width: 700px;
+  margin: 15px auto;
+  background-color: #4f83e4;
+  display: flex;
+  padding: 15px;
 }
-
 .poster {
-    max-width: 269px;
-    max-height: 369px;
+  max-width: 269px;
+  max-height: 369px;
 }
-
 .info {
-    padding: 20px;
-    flex-grow: 1;
+  padding: 20px;
+  flex-grow: 1;
 }
-
 .stars span {
-    color: rgb(179, 179, 179);
-    user-select: none;
-    cursor: pointer;
-    font-size: 16px;
+  color: #b3b3b3;
+  user-select: none;
+  cursor: pointer;
+  font-size: 16px;
 }
-
 .stars .filled {
-    color: black;
+  color: black;
 }
