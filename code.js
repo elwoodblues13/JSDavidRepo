@@ -1,5 +1,6 @@
 let $ = require("jquery");
 let movieData = require("./data");
+
 // function renderMovie(movie){
 //     document.querySelector(".info #movietitle").textContent = movie.title;
 //     document.querySelector(".info #description").textContent = movie.description;
