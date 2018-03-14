@@ -1,5 +1,5 @@
-let $ = require("jquery");
-let movieData = require("./data");
+import {movieData} from "./data";
+import * as $ from "jquery";
 
 // function renderMovie(movie){
 //     document.querySelector(".info #movietitle").textContent = movie.title;
