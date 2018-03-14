@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
       "sourceMap": true,
+      "types": [
+        "jquery"
+      ],
       "lib": ["es2015", "dom"]
     }
   }

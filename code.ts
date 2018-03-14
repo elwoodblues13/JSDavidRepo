@@ -1,3 +1,4 @@
+import { Review } from "./interfaces";
 import {movieData} from "./data";
 import * as $ from "jquery";
 
@@ -13,13 +14,13 @@ import * as $ from "jquery";
 //     document.querySelector(".info #actors").innerHTML = actorList;
 // }
 
-function renderMovie(movie){
+function renderMovie(movie: Review) {
     $(".info #movietitle").text(movie.title);
     $(".info #description").text(movie.description);
     $(".poster").attr("src", movie.imgUrl);
 
     $(".info #actors").empty();
-    for(let i=0; i<movie.actors.length; i++){
+    for (let i = 0; i < movie.actors.length; i++) {
         $(".info #actors").append("<li>" + movie.actors[i] + "</li>");
     }
 }
@@ -38,7 +39,7 @@ function renderMovie(movie){
 function changeStarRating(rating) {
     $(".filled").removeClass("filled");
 
-    for(let i=1; i<=rating; i++){
+    for (let i = 1; i <= rating; i++) {
         $("[id=" + i + "]").addClass("filled");
     }
 }
@@ -50,7 +51,7 @@ function changeStarRating(rating) {
 //     });
 // }
 
-$(".stars").on("click", "span", function(e){
+$(".stars").on("click", "span", (e) => {
     let star = $(e.target);
     let rating = parseInt(star.attr("id"));
     changeStarRating(rating);
