@@ -4,9 +4,11 @@
   "description": "",
   "main": "code.js",
   "scripts": {
-    "styles": "lessc styles.less styles.css",
+    "styles": "lessc styles.less distribution/styles.css",
     "bundle": "webpack",
     "start:dev": "webpack-dev-server",
+    "copyindex": "cp index.html distribution/index.html",
+    "build": "npm run bundle && npm run styles && npm run copyindex",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
